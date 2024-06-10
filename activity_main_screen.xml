@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnBack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#092F40"
+    tools:context=".main_screen">
+
+    <Button
+        android:id="@+id/btnDetailedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="618dp"
+        android:layout_marginEnd="238dp"
+        android:layout_marginBottom="65dp"
+        android:text="Detailed View"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Temperature"
+        android:textColor="#F8E7E7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="617dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="66dp"
+        android:text="Exit"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="201dp"
+        android:text="Clear"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="660dp"
+        android:text="Main Screen"
+        android:textColor="#E3D8D8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="479dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="204dp"
+        android:text="Display"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday-Friday"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
